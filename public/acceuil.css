@@ -1,0 +1,269 @@
+/* debut de la navigation */
+.logo{
+    font-size: 2em;
+    font-family:Georgia, 'Times New Roman', Times, serif
+ }
+ .recherche {
+ padding: 0 200px;
+ border-color: black;
+ }
+ .user{
+    padding: 0 0 10px 10px;
+    list-style: none;
+   display: flex;
+   
+ }
+ .user a{
+    padding: 0 0 0 10px;
+ }
+ .nav1{
+    display: flex;
+    padding-left: 5%;
+    background: rgba(255, 255, 255, 0.904);
+ }
+ .nav1 form{
+    padding: 0 0 0 150px;
+ }
+ .nav2 ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+ }
+ .nav2 ul li a{
+    text-decoration: none;
+    padding: 0 25px;
+    color:whitesmoke;
+    font-size: 1.5rem;
+    transition: 0.5s;
+ }
+ .nav2 ul li a:hover{
+    background-color:white;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 10px;
+ }
+ .navigation{
+    background: rgb(17, 17, 98);
+    opacity: 90%;
+ }
+ 
+
+/* fin de la navigation */
+
+        /* debut du carousel */
+        #carouselExampleRide{
+            margin: auto;
+           height: 50%;
+         }
+         .carousel-item{
+            width: 100%;
+         }
+         .carousel-caption{
+            color: black;
+         }
+        /* fin du carousel */
+
+    /* debut nouvelle arrivage */
+
+
+.arrivage {
+  padding-left:  40%;
+  padding: 20px 0 20px 490px;
+  
+}
+
+.card{
+  border:solid rgb(18, 78, 156);
+  box-shadow: 0 0 10px blue;
+}
+.card img{
+   width: 100%;
+  justify-content: center;
+}
+.card-body{
+   text-align: center;
+}
+.nouveau{
+   display: flex;
+   justify-content: space-between;
+}
+.taille-img{
+   max-height: 600px;
+}
+
+    /* fin nouvelle arrivage */
+
+    /* debut des produits */
+
+    .produit .produit1{
+        display: flex;
+        justify-content: space-between;
+      }
+      .produit .produit2{
+        display: flex;
+        justify-content: space-between;
+      }
+      .produit .produit3{
+        display: flex;
+        justify-content: space-between;
+      }
+      .card1{
+        justify-content: space-between;
+        
+      }
+      .card-body{
+        text-align: center;
+      }
+      .smartphone{
+        padding: 150px 0px 0px 10px;
+      }
+
+    /* fin des produits */
+
+    /* debut de smartphone.html,ordinateur.html,accesoir.html */
+.image{
+   display: flex;
+   justify-content: space-between;
+ }
+.phone-titre{
+  margin-left:42%;
+   margin-bottom: 30px;
+   /* margin-top: 130px; */
+}
+
+ /* fin de smartphone .html,ordinateur.html,accesoir.html */
+
+
+ /* le compte */
+.cpt{
+   background: linear-gradient(45deg, #fc4668, #3f5ef8); 
+   height: 100vh;
+   margin-top: 100px;
+}
+.compte{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: arial, sans-serif;
+   position: relative;
+} 
+form{
+   background: rgba(255, 255, 255, .3);
+   padding: 0 3rem 3rem 3rem;
+   border-radius: 20px;
+   border-left: 1px solid rgba(255, 255, 255, .3);
+   border-top: 1px solid rgba(255, 255, 255, .3);
+   box-shadow: 20px 20px 40px -6px rgba(0,0 , 0, .2);
+   text-align: center; 
+   /* effet sympa */
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter:blur(10px) ;
+   -moz-backdrop-filter:blur(10px);
+}
+form h2{
+   color: white;
+   font-weight: 500;
+   opacity: .7;
+   margin-bottom: 20px;
+   text-shadow: 2px 2px 4px rgba(0,0 , 0, .2) ;
+} 
+.compte2 input{
+   padding: 1.5rem;
+   background: transparent;
+   border: none;
+   border-left: 1px solid rgba(255, 255, 255, .3) ;
+   border-top: 1px solid rgba(255, 255, 255, .3);
+   width: 300px;
+   border-radius: 50px;
+   backdrop-filter: blur(5px);
+   -webkit-backdrop-filter:blur(5px) ;
+   -moz-backdrop-filter:blur(5px);
+   color: white;
+   box-shadow: 20px 20px 20px  rgba(0,0 , 0, .2);
+} 
+/* fin compte */
+
+   /* debut conctact */
+.contact-parent{
+   margin-top: 130px;
+   display: flex;
+}
+.contact2{
+   padding-left: 10%;
+   
+}
+.contact1{
+   background: rgba(5, 40, 238, 0.842);
+   padding: 0 3rem 3rem 3rem;
+   border-radius: 20px;
+   border-left: 1px solid rgba(255, 255, 255, .3);
+   border-top: 1px solid rgba(255, 255, 255, .3);
+   box-shadow: 20px 20px 40px -6px rgba(0,0 , 0, .2);
+   text-align: center; 
+   color: white;
+   backdrop-filter: blur(10px);
+   -webkit-backdrop-filter:blur(10px) ;
+   -moz-backdrop-filter:blur(10px);
+}
+.contact2 input[name="NnPr"]{
+   width: 250px;
+}
+.contact2 input[type="email"]{
+   width: 250px;
+}
+.contact2 input[name="sujet"]{
+   width: 500px;
+}
+.contact2 input[type="submit"]{
+  background:  rgba(5, 40, 238, 0.842);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: white;
+}
+   /* fin contact   */
+
+   /* debut qui sommes-nous */
+.opentech1{
+   margin-top: 130px;
+}
+.opentech1 h2{
+   /* margin-left: 20%; */
+   text-align: center;
+}
+.opentech1 p{ 
+   margin-left: 3%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 1.5rem;
+}
+
+
+   /* fin qui sommes-nous */
+   
+
+   /* debut du footer */
+.pied{
+   display: flex;
+   justify-content: space-between;
+   padding:  50px 15px  50px 15px;
+   background: black;
+   color: whitesmoke;
+ }
+ h2{
+   margin: 15px 0;
+   text-align: left;
+ }
+ .opentech p{
+   text-align: left;
+   line-height: 20px;
+ }
+ .esp{
+   padding: 0 20px 0 0 0;
+ }
+ 
+ /* fin du footer */
+ 
+
+ .survol:hover .dropdown-menu{
+   display: block !important;
+ }
